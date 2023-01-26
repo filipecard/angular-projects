@@ -1,13 +1,12 @@
-# Angular Projects
+# Pokedex App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
-This is a home page, on this page, you find a description and instructions to navigate in all projects. 
-This project is under development and may change frequently, remember to check the repository's last update date.
+This is a pokedex, a simple pokedex of the first generation of pokemons.
 
+For make this, i'm used the API [PokéApi](https://pokeapi.co/) and images from [Pokédex | Pokemon.com](alendar.google.com/calendar/u/0/r).
 
-To navigate in pages, you need change branchs, each branch have a especific name and description.
-
+![alt text](https://github.com/filipecard/angular-projects/blob/pokedex/src/assets/pokedex_page.png?raw=true)
 
 ## ------------------------------- Documentation -------------------------------
 ## Development server

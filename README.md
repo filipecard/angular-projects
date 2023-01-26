@@ -1,7 +1,15 @@
-# AngularProjects
+# Angular Projects
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
+This is a home page, on this page, you find a description and instructions to navigate in all projects. 
+This project is under development and may change frequently, remember to check the repository's last update date.
+
+
+To navigate in pages, you need change branchs, each branch have a especific name and description.
+
+
+## -------------------------------------- Documentation --------------------------------------
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

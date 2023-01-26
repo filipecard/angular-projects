@@ -9,7 +9,7 @@ This project is under development and may change frequently, remember to check t
 To navigate in pages, you need change branchs, each branch have a especific name and description.
 
 
-## -------------------------------------- Documentation --------------------------------------
+## ------------------------------- Documentation -------------------------------
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

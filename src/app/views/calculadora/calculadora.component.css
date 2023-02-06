@@ -8,7 +8,7 @@
     width: max-content;
     background-color: rgb(167, 167, 167);
 
-    padding: 1%;
+    padding: 20px;
     border-radius: 3%;
 }
 
@@ -20,11 +20,10 @@
     align-items: center;
     
     height: auto;
-
+    width: 340px;
     background-color: rgb(209, 209, 209);
-
-
-    border-radius: 5%;
+    
+    border-radius: 2%;
 }
 
 .display-button{
@@ -33,8 +32,24 @@
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
-    width:  -webkit-fill-available;
-    
+    width:  -webkit-fill-available;  
+}
+
+
+.button-style{
+    width: 70px;
+    height: 40px;
+    font-size: 30px;
+    font-family: FiraCode;
+}
+
+.input-style{
+    font: normal;
+    text-align: end;
+    font-size: 20px;
+    font-family: FiraCode;
+    width: -webkit-fill-available;
+    height: max-content;
 }
 
 /* remover arrows to plus or minus item button */

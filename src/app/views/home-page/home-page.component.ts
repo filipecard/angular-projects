@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+ 
+
+@Component({
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.css']
+})
+export class HomePageComponent {
+  expandMenuButton = false;
+
+  openButton(){
+    this.expandMenuButton = !this.expandMenuButton;
+  }
+
+
+}

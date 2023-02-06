@@ -1,0 +1,34 @@
+<div class="calculadora">
+    <mat-form-field >
+        <mat-label ex>N°</mat-label>
+        <input matInput type="number" #message placeholder="Ex. 123..." value="{{inputValue}}" (input)="updateValue($event)">
+    </mat-form-field>
+  
+    <div class="button-area-calculadora">
+        <br>
+        <p class="display-button">
+            <button mat-mini-fab *ngFor="let item of numbers[0]" (click)="addNumInput(item.toString())">
+            {{item}}
+            </button>
+        </p>
+
+        <p class="display-button">
+            <button mat-mini-fab *ngFor="let item of numbers[1]" (click)="addNumInput(item.toString())">
+            {{item}}
+            </button>
+        </p>
+
+        <p class="display-button">
+            <button mat-mini-fab *ngFor="let item of numbers[2]" (click)="addNumInput(item.toString())">
+            {{item}}
+            </button>
+        </p>
+
+        <p class="display-button">
+            <button mat-mini-fab *ngFor="let item of numbers[3]" (click)="addNumInput(item.toString())">
+            {{item}}
+            </button>
+        </p>
+        <br>
+    </div>  
+</div>
